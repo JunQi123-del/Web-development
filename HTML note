@@ -1,0 +1,18 @@
+HTML note
+
+Element vs Tag
+
+Tag = <h1> </h1>
+
+Basically the entire thing.
+Element = <h1>Example</h1>
+
+Header:
+Best not to have more than 1 <h1></h1> in a html file.
+Dont skip one level of header.
+
+Void element = forbidden to put any content inside the tag " "
+
+Horizontal rule = one horizontal line <hr/> 
+break = have the next sentence go to the next line <br/>
+
