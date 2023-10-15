@@ -1,0 +1,30 @@
+/* Write your code here: */
+h1,
+h2 {
+  /* select more than one selectors*/
+  color: blueviolet;
+}
+
+div > p {
+  /*Only one level down*/
+  color: firebrick;
+}
+
+.list li {
+  /* applied to all the li descendant of ul(ancestor) */
+  color: blue;
+}
+
+li.done {
+  /*Chaining
+    combining the 2 selectors together but both must be true to implement the css
+    e.g. list element with class "Done"*/
+  color: seagreen;
+}
+
+/*Combining Combiners 
+  Param = Ancestor <space> chaining*/
+
+ul p.done {
+  font-size: 0.5rem;
+}
